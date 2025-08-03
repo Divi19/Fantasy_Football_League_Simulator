@@ -23,23 +23,23 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
 - **Simulation Engine:** Matches are simulated with randomized scores, stat updates, and outcomes.
 
 ## Project Structure
-|- main.py #Entry point for simulation
-|- player.py #Player and PlayerStats logic
-|- team.py #Team and player grouping logic
-|- season.py #Full season manager and scheduler
-|- game_simulator.py #Simulates games between the teams
-|- constants.py #All the fixed values used in the program
-|- random_gen.py #Random generator used for the match simulation
-|- awards.py #Represents player and team rewards system
-|- hashy_step_table.py #Hash table with Double Hashing
-|- hashy_perfection_table.py #Hash table with perfect hash function for a small set of known keys
-|- data structures/
-| |- linked_list.py #Linked List implementation
-| |- linked_queue.py #Linked Queue implementation
-| |- hash_table.py #Hash table with Linear Probing
-| |- hash_table_separate_chaining.py #Hash table with Separate Chaining
-| |- array_sorted_list.py #Array sorted list using binary search
-| |- bset.py #Sets using bit vector implementation
+- main.py #Entry point for simulation
+- player.py #Player and PlayerStats logic
+- team.py #Team and player grouping logic
+- season.py #Full season manager and scheduler
+- game_simulator.py #Simulates games between the teams
+- constants.py #All the fixed values used in the program
+- random_gen.py #Random generator used for the match simulation
+- awards.py #Represents player and team rewards system
+- hashy_step_table.py #Hash table with Double Hashing
+- hashy_perfection_table.py #Hash table with perfect hash function for a small set of known keys
+- data structures/
+  - linked_list.py #Linked List implementation
+  - linked_queue.py #Linked Queue implementation
+  - hash_table.py #Hash table with Linear Probing
+  - hash_table_separate_chaining.py #Hash table with Separate Chaining
+  - array_sorted_list.py #Array sorted list using binary search
+  - bset.py #Sets using bit vector implementation
 
 ## Concepts Covered
 - Abstract Data Types (ADTs)
@@ -62,6 +62,7 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
 - Each test file checks to see if parts of the program are functioning properly
 - Print statements can be added to assist in debugging
 
-#Learning Objectives
+# Learning Objectives
 This project was built as part of a data structures and algorithms learning project. The goal is to reinforce concepts through a creative and engaging sport simulation environment that makes use of these data structures effectively.
+
 
