@@ -1,4 +1,4 @@
-#Fantasy Football League Simulator
+# Fantasy Football League Simulator
 
 Welcome to the **Fantasy Football League Simulator**, which is a simulation-based system designed to model an entire fantasy football season. This project demonstrates the use of **advanced data structures and algorithms** to:
 - Manage teams
@@ -8,7 +8,7 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
 - Organize a full schedule of games
 - Reschedule postponed games
 
-##Features
+## Features
 - **Player and Team Modeling:** Each player has a position and associated stats and each team consists of a fixed lineup of players.
 - **Statistics Management:** Stats are updated automatically after each match, tracking points, goals, wins, and more through custom data structures such as hash tables.
 - **Season Scheduling:** Randomized match scheduling ensures every team plays each other fairly across the season.
@@ -22,7 +22,7 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
   - Sets with bit vector implementation
 - **Simulation Engine:** Matches are simulated with randomized scores, stat updates, and outcomes.
 
-##Project Structure
+## Project Structure
 |- main.py #Entry point for simulation
 |- player.py #Player and PlayerStats logic
 |- team.py #Team and player grouping logic
@@ -41,7 +41,7 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
 | |- array_sorted_list.py #Array sorted list using binary search
 | |- bset.py #Sets using bit vector implementation
 
-##Concepts Covered
+## Concepts Covered
 - Abstract Data Types (ADTs)
 - Linked Structures
 - Hashing Techniques (Linear Probing, Separate Chaining, etc)
@@ -50,17 +50,18 @@ Welcome to the **Fantasy Football League Simulator**, which is a simulation-base
 - Dynamic Statistics Propagation
 - Time Complexity Optimization
 
-##How To Run
+## How To Run
 - Clone the repo by clicking the green 'Code' button, and then copy the HTTPS link of the repository
 - Open Visual Studio Code, navigate to the source control section and click clone repository
 - Paste the copied link into this box and hit enter
 - Select the location where you want to store the folder/repository and click 'Open'
 - The repository will be cloned, and you will now have access to the simulator
 
-##Testing
+## Testing
 - To use the test files, simply run this command in the terminal and just hit enter if you want to run all tests or you can specify the test number to run a specific one: python run_tests.py
 - Each test file checks to see if parts of the program are functioning properly
 - Print statements can be added to assist in debugging
 
 #Learning Objectives
 This project was built as part of a data structures and algorithms learning project. The goal is to reinforce concepts through a creative and engaging sport simulation environment that makes use of these data structures effectively.
+
